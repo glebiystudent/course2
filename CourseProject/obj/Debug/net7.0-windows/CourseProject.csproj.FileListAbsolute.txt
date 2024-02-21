@@ -1,0 +1,39 @@
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.exe
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.deps.json
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.runtimeconfig.json
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.dll
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.pdb
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.AssemblyReference.cache
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.GenerateResource.cache
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.AssemblyInfoInputs.cache
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.AssemblyInfo.cs
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.CoreCompileInputs.cache
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.dll
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\refint\CourseProject.dll
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.pdb
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.genruntimeconfig.cache
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\ref\CourseProject.dll
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\MySql.Data.xml
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.CopyComplete
+C:\Users\gpich\OneDrive\Рабочий стол\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.Form1.resources
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.AssemblyReference.cache
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.Form1.resources
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.GenerateResource.cache
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.AssemblyInfoInputs.cache
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.AssemblyInfo.cs
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.CoreCompileInputs.cache
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.dll
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\refint\CourseProject.dll
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.pdb
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.exe
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.deps.json
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.runtimeconfig.json
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.dll
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\CourseProject.pdb
+D:\data\university\course\course\CourseProject\CourseProject\bin\Debug\net7.0-windows\MySql.Data.dll
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.csproj.CopyComplete
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\CourseProject.genruntimeconfig.cache
+D:\data\university\course\course\CourseProject\CourseProject\obj\Debug\net7.0-windows\ref\CourseProject.dll
