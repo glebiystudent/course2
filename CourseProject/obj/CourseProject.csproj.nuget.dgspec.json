@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\data\\university\\course\\course\\CourseProject\\CourseProject\\CourseProject.csproj": {}
+    "C:\\Users\\gpich\\OneDrive\\Рабочий стол\\course2\\CourseProject\\CourseProject.csproj": {}
   },
   "projects": {
-    "D:\\data\\university\\course\\course\\CourseProject\\CourseProject\\CourseProject.csproj": {
+    "C:\\Users\\gpich\\OneDrive\\Рабочий стол\\course2\\CourseProject\\CourseProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\data\\university\\course\\course\\CourseProject\\CourseProject\\CourseProject.csproj",
+        "projectUniqueName": "C:\\Users\\gpich\\OneDrive\\Рабочий стол\\course2\\CourseProject\\CourseProject.csproj",
         "projectName": "CourseProject",
-        "projectPath": "D:\\data\\university\\course\\course\\CourseProject\\CourseProject\\CourseProject.csproj",
+        "projectPath": "C:\\Users\\gpich\\OneDrive\\Рабочий стол\\course2\\CourseProject\\CourseProject.csproj",
         "packagesPath": "C:\\Users\\gpich\\.nuget\\packages\\",
-        "outputPath": "D:\\data\\university\\course\\course\\CourseProject\\CourseProject\\obj\\",
+        "outputPath": "C:\\Users\\gpich\\OneDrive\\Рабочий стол\\course2\\CourseProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gpich\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -145,6 +145,50 @@ namespace CourseProject
             db.query_send("DELETE FROM bodydata WHERE `userid` = @code", arguments);
             db.query_send("DELETE FROM loginamount WHERE `id` = @code", arguments);
         }
+
+        public void SaveSugarSample(string level)
+        {
+            string __code = this.code;
+
+
+            string userid = __code;
+            string date = "date";
+            DateTime today = DateTime.Now;
+            date = today.ToString();
+            string sample;
+            string id_arg = "{\"@userid\":\"" + __code + "\"}";
+            DataTable table = db.query_get("SELECT sample FROM sugarlevels WHERE `userid` = @userid ORDER BY sample DESC LIMIT 1", id_arg);
+
+            if (table.Rows.Count == 0)
+            {
+                sample = "1";
+            } else
+            {
+                sample = ((int)table.Rows[0][0] + 1).ToString();
+            }
+
+            string arguments = "{\"@userid\":\"" + __code + "\", \"@date\":\"" + date + "\", \"@level\":\"" + level + "\", \"@sample\":\"" + sample + "\"}";
+            int statecode = db.query_send("INSERT INTO `sugarlevels` (`userid`, `date`, `level`, `sample`) VALUES (@userid, @date, @level, @sample)", arguments);
+        }
+
+        public string[] LoadSugarSamples()
+        {
+            List<string> samples = new List<string>();
+            string arguments = "{\"@userid\":\"" + this.code + "\"}";
+            DataTable table = db.query_get("SELECT level, date FROM sugarlevels WHERE `userid` = @userid ORDER BY date ASC", arguments);
+            foreach(DataRow row in table.Rows)
+            {
+                samples.Add(row[0].ToString() + " " + row[1].ToString());
+            }
+
+            return samples.ToArray();
+        }
+
+        public void ClearSamples()
+        {
+            string arguments = "{\"@userid\":\"" + this.code + "\"}";
+            db.query_send("DELETE FROM sugarlevels WHERE `userid` = @userid", arguments);
+        }
     
         public DataTable LoadBodydata()
         {

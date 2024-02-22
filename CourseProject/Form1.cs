@@ -1,3 +1,4 @@
+using MySqlX.XDevAPI;
 using System.Data;
 
 namespace CourseProject
@@ -52,7 +53,7 @@ namespace CourseProject
 
             if (state)
             {
-                this.Size = new Size(1100, 525);
+                this.Size = new Size(1200, 525);
                 button_login.Visible = false;
                 button_deleteaccount.Visible = true;
                 logged_in = true;
@@ -142,7 +143,7 @@ namespace CourseProject
         private void combobox_products_SelectedIndexChanged(object sender, EventArgs e)
         {
             int idx = combobox_products.SelectedIndex + 1;
-            
+
             string[] data = account.GetProductData(idx);
             if (data.Length >= 5)
             {
@@ -153,6 +154,26 @@ namespace CourseProject
                 label_sugar.Text = data[5] + "g.";
                 label_dp.Text = Math.Round((calculate_limit(int.Parse(data[5])) * 100)).ToString() + "%";
             }
+        }
+
+        private void button_savesample_Click(object sender, EventArgs e)
+        {
+            string sugar_level = textbox_sugarsample.Text;
+
+            account.SaveSugarSample(sugar_level);
+        }
+
+        private void button_loadsamples_Click(object sender, EventArgs e)
+        {
+            string[] items = account.LoadSugarSamples();
+            foreach (var i in items)
+                combobox_samples.Items.Add(i);
+        }
+
+        private void button_clearsamples_Click(object sender, EventArgs e)
+        {
+            account.ClearSamples();
+            combobox_samples.Items.Clear();
         }
     }
 }

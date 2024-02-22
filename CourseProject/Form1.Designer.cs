@@ -62,6 +62,12 @@
             label_loginamount = new Label();
             label9 = new Label();
             label_dp = new Label();
+            label10 = new Label();
+            button_savesample = new Button();
+            combobox_samples = new ComboBox();
+            textbox_sugarsample = new TextBox();
+            button_loadsamples = new Button();
+            button_clearsamples = new Button();
             SuspendLayout();
             // 
             // label_sign
@@ -210,7 +216,7 @@
             // button_login
             // 
             button_login.Anchor = AnchorStyles.Bottom;
-            button_login.Location = new Point(387, 375);
+            button_login.Location = new Point(452, 375);
             button_login.Name = "button_login";
             button_login.Size = new Size(283, 57);
             button_login.TabIndex = 14;
@@ -221,7 +227,7 @@
             // button_deleteaccount
             // 
             button_deleteaccount.Anchor = AnchorStyles.Bottom;
-            button_deleteaccount.Location = new Point(387, 375);
+            button_deleteaccount.Location = new Point(452, 375);
             button_deleteaccount.Name = "button_deleteaccount";
             button_deleteaccount.Size = new Size(217, 57);
             button_deleteaccount.TabIndex = 16;
@@ -402,11 +408,74 @@
             label_dp.Size = new Size(0, 41);
             label_dp.TabIndex = 34;
             // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(966, 46);
+            label10.Name = "label10";
+            label10.Size = new Size(192, 41);
+            label10.TabIndex = 35;
+            label10.Text = "Sugar Sample";
+            // 
+            // button_savesample
+            // 
+            button_savesample.Location = new Point(973, 145);
+            button_savesample.Name = "button_savesample";
+            button_savesample.Size = new Size(185, 51);
+            button_savesample.TabIndex = 36;
+            button_savesample.Text = "Save";
+            button_savesample.UseVisualStyleBackColor = true;
+            button_savesample.Click += button_savesample_Click;
+            // 
+            // combobox_samples
+            // 
+            combobox_samples.Font = new Font("Segoe UI Light", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            combobox_samples.FormattingEnabled = true;
+            combobox_samples.Location = new Point(973, 274);
+            combobox_samples.Name = "combobox_samples";
+            combobox_samples.Size = new Size(185, 31);
+            combobox_samples.TabIndex = 37;
+            combobox_samples.Text = "Samples";
+            // 
+            // textbox_sugarsample
+            // 
+            textbox_sugarsample.Font = new Font("Segoe UI Light", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            textbox_sugarsample.Location = new Point(987, 95);
+            textbox_sugarsample.Name = "textbox_sugarsample";
+            textbox_sugarsample.Size = new Size(154, 41);
+            textbox_sugarsample.TabIndex = 38;
+            // 
+            // button_loadsamples
+            // 
+            button_loadsamples.Location = new Point(973, 205);
+            button_loadsamples.Name = "button_loadsamples";
+            button_loadsamples.Size = new Size(185, 51);
+            button_loadsamples.TabIndex = 39;
+            button_loadsamples.Text = "Load";
+            button_loadsamples.UseVisualStyleBackColor = true;
+            button_loadsamples.Click += button_loadsamples_Click;
+            // 
+            // button_clearsamples
+            // 
+            button_clearsamples.Location = new Point(973, 391);
+            button_clearsamples.Name = "button_clearsamples";
+            button_clearsamples.Size = new Size(185, 51);
+            button_clearsamples.TabIndex = 40;
+            button_clearsamples.Text = "Clear";
+            button_clearsamples.UseVisualStyleBackColor = true;
+            button_clearsamples.Click += button_clearsamples_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(16F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1046, 453);
+            ClientSize = new Size(1177, 453);
+            Controls.Add(button_clearsamples);
+            Controls.Add(button_loadsamples);
+            Controls.Add(textbox_sugarsample);
+            Controls.Add(combobox_samples);
+            Controls.Add(button_savesample);
+            Controls.Add(label10);
             Controls.Add(label_dp);
             Controls.Add(label9);
             Controls.Add(label_loginamount);
@@ -486,5 +555,11 @@
         private Label label_loginamount;
         private Label label9;
         private Label label_dp;
+        private Label label10;
+        private Button button_savesample;
+        private ComboBox combobox_samples;
+        private TextBox textbox_sugarsample;
+        private Button button_loadsamples;
+        private Button button_clearsamples;
     }
 }
