@@ -216,7 +216,7 @@
             // button_login
             // 
             button_login.Anchor = AnchorStyles.Bottom;
-            button_login.Location = new Point(452, 375);
+            button_login.Location = new Point(55, 375);
             button_login.Name = "button_login";
             button_login.Size = new Size(283, 57);
             button_login.TabIndex = 14;
@@ -227,7 +227,7 @@
             // button_deleteaccount
             // 
             button_deleteaccount.Anchor = AnchorStyles.Bottom;
-            button_deleteaccount.Location = new Point(452, 375);
+            button_deleteaccount.Location = new Point(55, 375);
             button_deleteaccount.Name = "button_deleteaccount";
             button_deleteaccount.Size = new Size(217, 57);
             button_deleteaccount.TabIndex = 16;
@@ -469,7 +469,7 @@
             // 
             AutoScaleDimensions = new SizeF(16F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1177, 453);
+            ClientSize = new Size(382, 453);
             Controls.Add(button_clearsamples);
             Controls.Add(button_loadsamples);
             Controls.Add(textbox_sugarsample);
